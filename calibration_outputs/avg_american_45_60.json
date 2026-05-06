@@ -1,0 +1,19 @@
+{
+  "risk_45_60": {
+    "n": 1993,
+    "mean_pct": 5.988970386229632,
+    "median_pct": 4.3503394467709615,
+    "slider_mean_global": 15.8,
+    "slider_median_global": 11.3
+  },
+  "lifestyle_45_60": {
+    "n_phq": 2199,
+    "n_sleep": 2480,
+    "PHQ9_median": 2.0,
+    "PHQ9_score": 92.5925925925926,
+    "sleep_median_hrs": 7.5,
+    "sleep_score": 87.5,
+    "composite_pre_adj": 90.6,
+    "composite_post_adj": 82.6
+  }
+}

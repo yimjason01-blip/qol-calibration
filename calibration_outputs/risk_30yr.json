@@ -1,0 +1,18 @@
+{
+  "method": "PREVENT 30-year, ratio-based extension of PREVENT 10-year",
+  "n_full_cohort": 3447,
+  "full_cohort_distribution": {
+    "mean_pct": 16.769506543309134,
+    "median_pct": 11.62877965356179,
+    "p1_pct": 1.6313461622814371,
+    "p99_pct": 85.0
+  },
+  "cohort_45_59": {
+    "n": 1809,
+    "mean_pct": 22.685870886246875,
+    "median_pct": 17.526107741359596,
+    "slider_mean": 25.3,
+    "slider_median": 19.1
+  },
+  "all_adults_30_59_slider": 18.2
+}
