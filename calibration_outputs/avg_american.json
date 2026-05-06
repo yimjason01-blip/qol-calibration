@@ -1,0 +1,70 @@
+{
+  "raw": {
+    "risk": {
+      "n_adults": 8550,
+      "median_age": 50.0,
+      "TC_mg_dL_median": 183.0,
+      "HDL_mg_dL_median": 51.0,
+      "LDL_mg_dL_median": 106.0,
+      "SBP_mmHg_median": 121.33333333333333,
+      "DBP_mmHg_median": 74.33333333333333,
+      "BMI_median": 28.9,
+      "A1c_pct_median": 5.6,
+      "eGFR_median": 98.24774610882879,
+      "current_smoker_pct": 19.05263157894737,
+      "diabetes_pct": 14.713450292397662,
+      "BMI_obese_pct": 40.03508771929825,
+      "BMI_overweight_or_obese_pct": 68.85380116959064,
+      "SBP_hypertension_pct": 26.877192982456137,
+      "LDL_high_pct": 10.865497076023392,
+      "A1c_prediabetes_pct": 26.035087719298243,
+      "A1c_diabetes_pct": 12.444444444444445
+    },
+    "reserve": {
+      "grip_n": 9425,
+      "grip_max_kg_median": 35.7,
+      "grip_combined_kg_median": 67.5,
+      "grip_male_max_kg_median": 45.9,
+      "grip_female_max_kg_median": 29.4,
+      "DSST_n": 1196,
+      "DSST_median": 47.0,
+      "VO2max_n": 1323,
+      "VO2max_mL_kg_min_median": 34.92
+    },
+    "lifestyle": {
+      "PHQ9_n": 7411,
+      "PHQ9_median": 2.0,
+      "PHQ9_mean": 3.3160167318850355,
+      "PHQ9_moderate_or_severe_pct": 9.337471326406693,
+      "PHQ9_any_depression_pct": 26.312238564296315,
+      "Sleep_n": 8471,
+      "Sleep_hours_median": 7.5,
+      "Sleep_short_pct": 26.28969425097391
+    }
+  },
+  "avg_american": {
+    "risk_avg": 46.6,
+    "reserve_avg": 43.7,
+    "lifestyle_avg": 90.6,
+    "components": {
+      "risk": {
+        "LDL": 30.0,
+        "SBP": 22.666666666666657,
+        "A1c": 19.999999999999986,
+        "BMI": 38.33333333333332,
+        "smoking_prevalence": 95.26315789473685,
+        "diabetes_prevalence": 73.5672514619883
+      },
+      "reserve": {
+        "VO2max": 45.72972972972973,
+        "grip_max": 39.25000000000001,
+        "DSST": 44.0
+      },
+      "lifestyle": {
+        "PHQ9_inverted": 92.5925925925926,
+        "sleep_hours_scaled": 87.5
+      }
+    }
+  },
+  "method": "NHANES public microdata; see calibration_inputs.md for component sources and anchor cutpoints"
+}

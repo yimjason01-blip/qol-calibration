@@ -1,0 +1,62 @@
+{
+  "components": {
+    "VO2max": {
+      "hr_per_sd": 0.69,
+      "source": "Kodama 2009 JAMA",
+      "log_hr_abs": 0.37106368139083207,
+      "weight": 0.1655
+    },
+    "grip": {
+      "hr_per_sd": 0.66,
+      "source": "Leong 2015 Lancet (PURE)",
+      "log_hr_abs": 0.4155154439616658,
+      "weight": 0.1853
+    },
+    "ALMI": {
+      "hr_per_sd": 0.8,
+      "source": "Cawthon 2015",
+      "log_hr_abs": 0.2231435513142097,
+      "weight": 0.0995
+    },
+    "bone_density": {
+      "hr_per_sd": 0.67,
+      "source": "Johnell 2005 Osteoporos Int",
+      "log_hr_abs": 0.40047756659712525,
+      "weight": 0.1786
+    },
+    "gait_speed": {
+      "hr_per_sd": 0.81,
+      "source": "Studenski 2011 JAMA",
+      "log_hr_abs": 0.21072103131565253,
+      "weight": 0.094
+    },
+    "DSST_processing": {
+      "hr_per_sd": 0.83,
+      "source": "Lara 2016 / cognitive-reserve lit",
+      "log_hr_abs": 0.18632957819149348,
+      "weight": 0.0831
+    },
+    "leg_power": {
+      "hr_per_sd": 0.78,
+      "source": "Reid 2012",
+      "log_hr_abs": 0.2484613592984996,
+      "weight": 0.1108
+    },
+    "FEV1": {
+      "hr_per_sd": 0.83,
+      "source": "Schunemann 2000",
+      "log_hr_abs": 0.18632957819149348,
+      "weight": 0.0831
+    }
+  },
+  "v1_priors": {
+    "VO2max": 0.3,
+    "ALMI": 0.15,
+    "grip": 0.1,
+    "leg_power": 0.1,
+    "bone_density": 0.1,
+    "gait_speed": 0.1,
+    "DSST_processing": 0.1,
+    "FEV1": 0.05
+  }
+}

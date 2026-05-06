@@ -1,0 +1,19 @@
+{
+  "n": 5597,
+  "prevent_total_cvd_distribution": {
+    "mean_pct": 8.131186505310366,
+    "median_pct": 5.02989139297919,
+    "p1_pct": 0.20416327253651995,
+    "p5_pct": 0.409835227022751,
+    "p25_pct": 1.5837598434164952,
+    "p75_pct": 12.075552787817184,
+    "p95_pct": 24.795923108794153,
+    "p99_pct": 36.81336267514641
+  },
+  "slider_anchors": {
+    "p1_anchor_for_0": 0.20416327253651995,
+    "p99_anchor_for_100": 36.81336267514641
+  },
+  "avg_american_slider_value": 21.7,
+  "median_american_slider_value": 13.2
+}

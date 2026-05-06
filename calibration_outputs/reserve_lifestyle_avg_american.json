@@ -1,0 +1,89 @@
+{
+  "reserve": {
+    "VO2max": {
+      "raw_median": 34.92,
+      "score_0_100": 45.7,
+      "n": 1323,
+      "anchors": [
+        18,
+        55
+      ]
+    },
+    "grip_max": {
+      "raw_median_M": 45.9,
+      "raw_median_F": 29.4,
+      "score_0_100": 63.2,
+      "n": 9425,
+      "anchors_M": [
+        20,
+        60
+      ],
+      "anchors_F": [
+        12,
+        40
+      ]
+    },
+    "DSST": {
+      "raw_median": 47.0,
+      "score_0_100": 44.0,
+      "n": 1196,
+      "anchors": [
+        25,
+        75
+      ],
+      "note": "60+ only"
+    },
+    "weights": {
+      "VO2max": 0.5,
+      "grip": 0.25,
+      "DSST": 0.25
+    },
+    "reserve_avg_american": 49.7,
+    "uncovered_components": [
+      "DEXA ALMI",
+      "lower-body power",
+      "bone density",
+      "gait/balance",
+      "pulmonary FEV1"
+    ],
+    "note": "3 of 8 spec components covered. Each 0-100 anchored to literature cutpoints (deconditioning floor \u2192 general-population elite). DSST is 60+ only; reserve_avg_american is for the represented age strata."
+  },
+  "lifestyle": {
+    "PHQ9": {
+      "raw_median": 2.0,
+      "score_0_100": 92.6,
+      "n": 7411,
+      "anchors_raw": [
+        27,
+        0
+      ]
+    },
+    "sleep": {
+      "raw_median_hrs": 7.5,
+      "score_0_100": 87.5,
+      "n": 8471,
+      "anchors_hrs": [
+        4,
+        8
+      ]
+    },
+    "weights": {
+      "PHQ9": 0.6,
+      "sleep": 0.4
+    },
+    "lifestyle_avg_pre_adjustment": 90.6,
+    "uncovered_adjustment": -8.0,
+    "lifestyle_avg_american": 82.6,
+    "uncovered_components": [
+      "loneliness (~30% moderate per Surgeon General 2023)",
+      "chronic pain (~21% per CDC)",
+      "fatigue",
+      "libido",
+      "purpose/meaning",
+      "anxiety (only PHQ-9 captured, not GAD-7)",
+      "general HRQoL",
+      "drive/positive affect"
+    ],
+    "note": "2 of 10 spec components covered by NHANES. Pre-adjustment value over-estimates because uncovered domains are known to drag the population mean down. -8 point adjustment derived from prevalence-weighted literature."
+  }
+}
