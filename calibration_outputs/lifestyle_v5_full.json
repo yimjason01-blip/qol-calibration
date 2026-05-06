@@ -1,0 +1,63 @@
+{
+  "method": "10-dimension SPAREQ Vitality composite (physical components removed; those live in Reserve)",
+  "cohort": "NHANES 45-59",
+  "anchors": {
+    "GOOD_SCORE": 80,
+    "POOR_SCORE": 30
+  },
+  "dimensions": {
+    "mood": {
+      "score": 87.36722659374593,
+      "source": "NHANES PHQ-9 microdata, n=1991",
+      "method": "empirical mean"
+    },
+    "anxiety": {
+      "prevalence": 0.2,
+      "source": "CDC NHIS 2022 - past-2-wk anxiety symptoms",
+      "score": 70.0
+    },
+    "sleep": {
+      "score": 76.345042240996,
+      "source": "NHANES sleep duration, n=2249",
+      "method": "empirical mean"
+    },
+    "energy_drive": {
+      "prevalence": 0.2,
+      "source": "NHIS persistent low energy ~20%",
+      "score": 70.0
+    },
+    "libido": {
+      "prevalence": 0.35,
+      "source": "FSFI/IIEF midlife literature, sex-averaged",
+      "score": 62.5
+    },
+    "connection": {
+      "prevalence": 0.3,
+      "source": "Surgeon General 2023 loneliness moderate+",
+      "score": 65.0
+    },
+    "purpose": {
+      "prevalence": 0.3,
+      "source": "Gallup/Pew low-meaning midlife",
+      "score": 65.0
+    },
+    "pain": {
+      "prevalence": 0.24,
+      "source": "CDC NHIS 2021 chronic pain age 45-64",
+      "score": 68.0
+    },
+    "fatigue": {
+      "prevalence": 0.2,
+      "source": "NHIS persistent fatigue",
+      "score": 70.0
+    },
+    "cognitive_complaint": {
+      "prevalence": 0.12,
+      "source": "BRFSS SCD adults 45+",
+      "score": 74.0
+    }
+  },
+  "composite_avg_american_45_59": 70.8,
+  "previous_v2_value": 82.6,
+  "delta": -11.8
+}
