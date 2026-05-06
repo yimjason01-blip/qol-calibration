@@ -1,0 +1,19 @@
+{
+  "n": 1809,
+  "per_domain_mean_pct": {
+    "cvd": 22.685870886246875,
+    "metab": 54.09950248756218,
+    "ckd": 37.26713503552065,
+    "cancer": 33.44378109452736,
+    "neuro": 24.22194582642344
+  },
+  "composite_any_event_30yr": {
+    "mean_pct": 85.76890755166183,
+    "median_pct": 86.72606443249735,
+    "p25_pct": 76.29352964224438,
+    "p75_pct": 96.87136592410398
+  },
+  "slider_avg_american_45_59": 65.7,
+  "slider_median_american_45_59": 68.0,
+  "method": "Independent composition of 5 domain 30-year probabilities (CVD via PREVENT, Metab/CKD/Cancer/Neuro via published-source-anchored approximations)"
+}
